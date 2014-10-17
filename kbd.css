@@ -49,6 +49,11 @@ kbd kbd:hover {
   box-shadow: 0px 0px 0px black;
 }
 
+kbd:active kbd {
+  box-shadow: 0px 0px 0px black;
+  background: none;
+}
+
 /* Deep blue */
 kbd.deep-blue, .deep-blue kbd {
   background: steelblue;
