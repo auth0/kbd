@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>kbd styles</title>
+    <link rel="stylesheet" href="kbd.css" type="text/css" media="all" />
+  <style>
+
+    html {
+      background: white;
+    }
+
+    body {
+      font-family: Helvetica;
+      text-align: center;
+      margin: auto;
+      width: 350px;
+      background: rgba(255,255,255,.9);
+      padding: 0 50px;
+      height: 100%;
+    }
+
+    h3 {
+      text-transform: uppercase;
+      color: dimgray;
+    }
+
+    h1 {
+      zoom: 3;
+      margin: 0;
+    }
+
+    pre {
+      background: #eee;
+      font-family: Monaco, "Lucida Console", monospace;
+      border: 1px solid #eee;
+      padding: 10px;
+      border-radius: 3px;
+      text-align: left;
+    }
+
+  </style>
+  </head>
+  <body>
+
+  <h1><kbd>K</kbd><kbd>B</kbd><kbd>D</kbd></h1>
+  <small>Fork me at <a href="https://github.com/auth0/kbd">github.com/auth0/kbd</a></small>
+  <h2>Install</h2>
+  <p>
+  Using bower:
+  </p>
+  <pre><code>bower install kbd</code></pre>
+
+  <h2>Usage</h2>
+  <p>
+    Wrap one or more keys inside a <em>&lt;kbd&gt;</em> tag. Examples:
+  <pre><code>&lt;kbd&gt;ctrl&lt;/kbd&gt;</code></pre> produces <kbd>ctrl</kbd>
+  <pre><code>&lt;kbd&gt;a&lt;/kbd&gt;</code></pre> produces <kbd>a</kbd>
+
+  <h2>Themes</h2>
+  <h3>standard</h3>
+
+  <p>
+    Press <kbd>ctrl</kbd> then key <kbd>a</kbd> to select all.
+    You can save by doing: <kbd><kbd>cmd</kbd>+<kbd>s</kbd></kbd>.
+    Or you can try something different: <kbd>cmd</kbd><kbd>shift</kbd><kbd>s</kbd>.
+  </p>
+  <p>
+    <!-- This might be useful to regenerate the keys again:                                     -->
+    <!-- 'qwertyuiop'.split('').map(function (x) {  return '<kbd>' + x + '</kbd>'; }).join('')  -->
+    <!-- 'asdfghjkl'.split('').map(function (x) {   return '<kbd>' + x + '</kbd>'; }).join('')  -->
+    <!-- 'zxcvbnm'.split('').map(function (x) {     return '<kbd>' + x + '</kbd>'; }).join('')  -->
+    <kbd>q</kbd><kbd>w</kbd><kbd>e</kbd><kbd>r</kbd><kbd>t</kbd><kbd>y</kbd><kbd>u</kbd><kbd>i</kbd><kbd>o</kbd><kbd>p</kbd>
+    <br />
+    <kbd>a</kbd><kbd>s</kbd><kbd>d</kbd><kbd>f</kbd><kbd>g</kbd><kbd>h</kbd><kbd>j</kbd><kbd>k</kbd><kbd>l</kbd>
+    <br />
+    <kbd>z</kbd><kbd>x</kbd><kbd>c</kbd><kbd>v</kbd><kbd>b</kbd><kbd>n</kbd><kbd>m</kbd>
+  </p>
+
+  <h3>deep-blue</h3>
+  <pre><code>&lt;kdb class="deep-blue"&gt;a&lt;/kbd&gt;</code></pre>
+  <p class="deep-blue">
+    Press <kbd>ctrl</kbd> then key <kbd>a</kbd> to select all.
+    You can save by doing: <kbd><kbd>cmd</kbd>+<kbd>s</kbd></kbd>.
+    Or you can try something different: <kbd>cmd</kbd><kbd>shift</kbd><kbd>s</kbd>.
+  </p>
+  <p class="deep-blue">
+    <kbd>q</kbd><kbd>w</kbd><kbd>e</kbd><kbd>r</kbd><kbd>t</kbd><kbd>y</kbd><kbd>u</kbd><kbd>i</kbd><kbd>o</kbd><kbd>p</kbd>
+    <br />
+    <kbd>a</kbd><kbd>s</kbd><kbd>d</kbd><kbd>f</kbd><kbd>g</kbd><kbd>h</kbd><kbd>j</kbd><kbd>k</kbd><kbd>l</kbd>
+    <br />
+    <kbd>z</kbd><kbd>x</kbd><kbd>c</kbd><kbd>v</kbd><kbd>b</kbd><kbd>n</kbd><kbd>m</kbd>
+  </p>
+
+  <h3>dark-apple</h3>
+  <pre><code>&lt;kdb class="dark-apple"&gt;a&lt;/kbd&gt;</code></pre>
+  <p class="dark-apple">
+    Press <kbd>ctrl</kbd> then key <kbd>a</kbd> to select all.
+    You can save by doing: <kbd><kbd>cmd</kbd>+<kbd>s</kbd></kbd>.
+    Or you can try something different: <kbd>cmd</kbd><kbd>shift</kbd><kbd>s</kbd>.
+  </p>
+
+  <p class="dark-apple">
+    <kbd>q</kbd><kbd>w</kbd><kbd>e</kbd><kbd>r</kbd><kbd>t</kbd><kbd>y</kbd><kbd>u</kbd><kbd>i</kbd><kbd>o</kbd><kbd>p</kbd>
+    <br />
+    <kbd>a</kbd><kbd>s</kbd><kbd>d</kbd><kbd>f</kbd><kbd>g</kbd><kbd>h</kbd><kbd>j</kbd><kbd>k</kbd><kbd>l</kbd>
+    <br />
+    <kbd>z</kbd><kbd>x</kbd><kbd>c</kbd><kbd>v</kbd><kbd>b</kbd><kbd>n</kbd><kbd>m</kbd>
+  </p>
+
+  <h3>type-writer</h3>
+  <pre><code>&lt;kdb class="type-writer"&gt;a&lt;/kbd&gt;</code></pre>
+  <p class="type-writer">
+    Press <kbd>ctrl</kbd> then key <kbd>a</kbd> to select all.
+    You can save by doing: <kbd><kbd>cmd</kbd>+<kbd>s</kbd></kbd>.
+    Or you can try something different: <kbd>cmd</kbd><kbd>shift</kbd><kbd>s</kbd>.
+  </p>
+
+  <p class="type-writer">
+    <kbd>q</kbd><kbd>w</kbd><kbd>e</kbd><kbd>r</kbd><kbd>t</kbd><kbd>y</kbd><kbd>u</kbd><kbd>i</kbd><kbd>o</kbd><kbd>p</kbd>
+    <br />
+    <kbd>a</kbd><kbd>s</kbd><kbd>d</kbd><kbd>f</kbd><kbd>g</kbd><kbd>h</kbd><kbd>j</kbd><kbd>k</kbd><kbd>l</kbd>
+    <br />
+    <kbd>z</kbd><kbd>x</kbd><kbd>c</kbd><kbd>v</kbd><kbd>b</kbd><kbd>n</kbd><kbd>m</kbd>
+  </p>
+
+  <h2>Notice</h2>
+    <p>Case of letters is important. Take into account that <kbd>shift</kbd><kbd>a</kbd> produced by:</p>
+
+    <pre><code>&lt;kbd&gt;shift&lt;/kbd&gt;&lt;kbd&gt;a&lt;/kbd&gt;</code></pre>
+
+    <p>is different from:</p>
+
+  <pre><code>&lt;kbd&gt;SHIFT&lt;/kbd&gt;&lt;kbd&gt;A&lt;/kbd&gt;</code></pre>
+
+  <p>That produces: <kbd>SHIFT</kbd><kbd>A</kbd></p>
+
+  <h2>License</h2>
+  <p>MIT</p>
+  <small>Happy hacking!</small>
+  </body>
+</html>

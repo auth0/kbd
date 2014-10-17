@@ -1,0 +1,26 @@
+{
+  "name": "kbd",
+  "version": "0.0.1",
+  "authors": [
+    "Alberto Pose <albertopose@gmail.com>"
+  ],
+  "description": "Styles for <kbd> tags.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "kbd",
+    "html5",
+    "keyboard",
+    "shortcut"
+  ],
+  "license": "MIT",
+  "homepage": "auth0.github.com/kbd",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
