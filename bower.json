@@ -15,7 +15,7 @@
     "shortcut"
   ],
   "license": "MIT",
-  "homepage": "auth0.github.com/kbd",
+  "homepage": "https://auth0.github.io/kbd",
   "ignore": [
     "**/.*",
     "node_modules",
