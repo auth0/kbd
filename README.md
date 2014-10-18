@@ -1,6 +1,6 @@
 kbd
 ===
 
-Styles for HTML5 `<kbd>` tags.
+Styles for  `<kbd>` HTML tags.
 
 https://auth0.github.io/kbd
